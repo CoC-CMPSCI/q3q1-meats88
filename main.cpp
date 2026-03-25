@@ -11,9 +11,9 @@ cin >> a >> b >> c;
 px = (-b + sqrt((b*b) - 4 * a * c)) / (2 * a);
 mx = (-b - sqrt((b*b) - 4 * a * c)) / (2 * a);
 
-cout << setprecision(2);
+cout << fixed << setprecision(2);
 cout << px << " " << mx << endl;
-
+return 0;
 
 
 
